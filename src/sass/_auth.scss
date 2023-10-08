@@ -1,0 +1,15 @@
+.auth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6d9ac4;
+    min-height: 100vh;  
+
+    button {
+        background-color: #ee5784 !important;
+        color: white;
+        &:hover{
+            color: white;
+        }
+    }
+}

@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:ital@0;1&display=swap');
+@import './sass//bootstrap';
+@import "./sass/auth";
+@import './sass/screenLoader';
+
+
+::-webkit-scrollbar {
+  background-color: #fff;
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border: 1px solid transparent;
+  border-radius: 25px;
+  background: #7a7a76;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #494948;
+}
+
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  font-family: 'Poppins', sans-serif;
+  flex: 1 0 auto;
+}
